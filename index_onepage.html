@@ -10,8 +10,17 @@
 	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, virtuos, portfolio" />
 	<meta name="author" content="beshleyua" />
 
+	<!-- Ajouter Mapbox CSS -->
+    <!-- <link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet" /> -->
+
+	 <!-- Ajouter Leaflet CSS pour OpenStreetMap -->
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    
+
+
 	<!-- Title -->
-	<title>virtuos - Resume/CV Template</title>
+	<title>adel djebali</title>
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
@@ -102,6 +111,12 @@
 								<li class="menu-item">
 									<a href="#section-contacts">Contact</a>
 								</li>
+								<li class="menu-item">
+									<a href="#section-services">Services</a>
+								</li>
+								<li class="menu-item">
+									<a href="#section-pricing">Pricing</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -174,9 +189,9 @@
 							</ul>
 						</div>
 						<div class="bts">
-							<a href="#" class="btn hover-animated">
+							<a href="https://cvdesignr.com/p/662fa6dff1094?hl=fr_FR" class="btn hover-animated">
 								<span class="circle"></span>
-								<span class="https://cvdesignr.com/p/662fa6dff1094?hl=fr_FR">Download CV</span>
+								<span class="lnk">Download CV</span>
 							</a>
 						</div>
 					</div>
@@ -255,92 +270,90 @@
 			</div>
 
 			<!-- Section Pricing -->
-			<div class="section pricing" id="section-pricing">
-				<div class="content">
+<div class="section pricing" id="section-pricing">
+    <div class="content">
 
-					<!-- title -->
-					<div class="title">
-						<div class="title_inner">Pricing Table</div>
-					</div>
+        <!-- title -->
+        <div class="title">
+            <div class="title_inner">Pricing Table</div>
+        </div>
 
-					<!-- pricing items -->
-					<div class="pricing-items">
+        <!-- pricing items -->
+        <div class="pricing-items">
 
-						<div class="pricing-col">
-							<div class="pricing-item content-box">
-								<div class="icon">
-									<span class="fas fa-check-circle"></span>
+            <!-- Basic Plan -->
+            <div class="pricing-col">
+                <div class="pricing-item content-box">
+                    <div class="icon">
+                        <span class="fas fa-gem"></span>
+                    </div>
+                    <div class="name">Basic</div>
+                    <div class="amount">
+                        <span class="number">
+                            <span class="dollar">$</span>
+                            <span>699</span>
+                            <span class="period">/ project</span>
+                        </span>
+                    </div>
+                    <div class="feature-list">
+                        <ul>
+                            <li>Web Design (1-3 pages)</li>
+                            <li>Basic Development</li>
+                            <li>Responsive Design</li>
+                            <li>Basic SEO</li>
+                            <li class="disable">E-commerce</li>
+                            <li class="disable">Branding</li>
+							<li class="disable">API integration</li>
+                        </ul>
+                    </div>
+                    <div class="bts">
+                        <a href="pricing.html" class="btn hover-animated">
+                            <span class="circle"></span>
+                            <span class="lnk">Get Started</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-								</div>
-								<div class="name">Basic</div>
-								<div class="amount">
-									<span class="number">
-										<span class="dollar">$</span>
-										<span>39</span>
-										<span class="period">hour</span>
-									</span>
-								</div>
-								<div class="feature-list">
-									<ul>
-										<li>Web Development</li>
-										<li>Responsive Web Design</li>
-										<li>Brand & Visual Identity</li>
-										<li class="disable">WordPress</li>
-										<li>Logo Design</li>
-										<li class="disable">SEO</li>
-										<li class="disable">Community Management</li>
-										<li class="disable">AI Engineering</li>
-										<li class="disable">Website Maintenance</li>
-									</ul>
-								</div>
-								<div class="bts">
-									<a href="#" class="btn hover-animated">
-										<span class="circle"></span>
-										<span class="lnk">Buy Now</span>
-									</a>
-								</div>
-							</div>
-						</div>
+            <!-- Premium Plan -->
+            <div class="pricing-col">
+                <div class="pricing-item content-box">
+                    <div class="icon">
+                        <span class="fas fa-rocket"></span>
+                    </div>
+                    <div class="name">Premium</div>
+                    <div class="amount">
+                        <span class="number">
+                            <span class="dollar">$</span>
+                            <span>1299</span>
+                            <span class="period">/ project</span>
+                        </span>
+                    </div>
+                    <div class="feature-list">
+                        <ul>
+                            <li>Web Design (4+ pages)</li>
+                            <li>Advanced Development</li>
+                            <li>High-Speed Performance</li>
+                            <li>SEO Optimization</li>
+                            <li>E-commerce (Shopify, WooCommerce)</li>
+                            <li>Branding & Identity</li>
+							<li>API integration</li>
+                        </ul>
+                    </div>
+                    <div class="bts">
+                        <a href="pricing.html" class="btn hover-animated">
+                            <span class="circle"></span>
+                            <span class="lnk">Get Started</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-						<div class="pricing-col">
-							<div class="pricing-item content-box">
-								<div class="icon">
-									<span class="fas fa-star"></span>
-								</div>
-								<div class="name">Advanced</div>
-								<div class="amount">
-									<span class="number">
-										<span class="dollar">$</span>
-										<span>69</span>
-										<span class="period">hour</span>
-									</span>
-								</div>
-								<div class="feature-list">
-									<ul>
-										<li>Web Development</li>
-										<li>Responsive Web Design</li>
-										<li>Brand & Visual Identity</li>
-										<li>WordPress</li>
-										<li>Logo Design</li>
-										<li>SEO</li>
-										<li>Community Management</li>
-										<li>AI Engineering</li>
-										<li>Website Maintenance</li>
-									</ul>
-								</div>
-								<div class="bts">
-									<a href="#" class="btn hover-animated">
-										<span class="circle"></span>
-										<span class="lnk">Buy Now</span>
-									</a>
-								</div>
-							</div>
-						</div>
+        </div>
 
-					</div>
+    </div>
+</div>
 
-				</div>
-			</div>
 
 			<!-- Section Resume -->
 			<div class="section resume" id="section-history">
@@ -974,6 +987,68 @@
 							</div>
 						</div>
 
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-2" class="has-popup-gallery hover-animated">
+									<img src="images/OasisConstruction/OasisConstruction-01.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Oasis Construction</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-2" class="mfp-hide">
+									<a href="images/OasisConstruction/OasisConstruction-02.png"><img src="images/work70.png" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-03.png"><img src="images/work2.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-04.png"><img src="images/work3.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-06.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-07.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-08.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-09.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-10.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-11.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-12.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-13.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-14.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-15.png"><img src="images/work4.jpg" alt=""></a>
+
+								</div>
+							</div>
+						</div>
+
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-5" class="has-popup-gallery hover-animated">
+									<img src="images/Messi/A.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Face-Swap</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-5" class="mfp-hide">
+									<a href="images/Messi/A.png"><img src="images/Messi/A.png" alt=""></a>
+									<a href="images/Messi/B.png"><img src="images/Messi/B.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						
+
 						<div class="box-item f-video">
 							<div class="image">
 								<a href="https://youtu.be/S4L8T2kFFck" class="has-popup-video hover-animated">
@@ -1012,7 +1087,7 @@
 							</div>
 						</div>
 
-						<div class="box-item f-image">
+						<!-- <div class="box-item f-image">
 							<div class="image">
 								<a href="images/work70.png" class="has-popup-image hover-animated">
 									<img src="images/work70.png" class="wp-post-image" alt="" />
@@ -1029,7 +1104,7 @@
 									</span>
 								</a>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="box-item f-music">
 							<div class="image">
@@ -1050,7 +1125,7 @@
 							</div>
 						</div>
 
-						<div class="box-item f-gallery">
+						<!-- <div class="box-item f-gallery">
 							<div class="image">
 								<a href="#gallery-2" class="has-popup-gallery hover-animated">
 									<img src="images/work70.png" class="wp-post-image" alt="" />
@@ -1060,7 +1135,7 @@
 												<span class="icon fas fa-images"></span>
 												<span class="desc">
 													<span class="category">Gallery</span>
-													<span class="name">Undulating Space</span>
+													<span class="name">Oasis Construction</span>
 												</span>
 											</span>
 										</span>
@@ -1073,7 +1148,7 @@
 									<a href="images/work70.png"></a>
 								</div>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="box-item f-content">
 							<div class="image">
@@ -1221,10 +1296,12 @@
 					<div class="video-bg-mask"></div>
 					<div class="video-bg-texture" id="grained_container"></div>
 				</div>
+				<div id="map" style="height: 100px;"></div>
 
 			</div>
 
 		</div>
+
 		
 		<!-- Footer -->
 		<footer class="footer">
@@ -1251,7 +1328,7 @@
 			</div>
 			
 			
-			<div class="clear"></div>
+			<!-- <div class="clear"></div> -->
 		</footer>
 
 		<!-- Lines -->
@@ -1280,9 +1357,26 @@
 	<script src="js/grained.js"></script>
 
 	<!-- Google map api -->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script> -->
 
 	<script src="js/scripts.js"></script>
-
+	
+		<!-- Ton contenu de page ici -->
+	
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script>
+			// Créer la carte et centrer sur une latitude et longitude spécifiques
+			var map = L.map('map').setView([48.834663, 2.504317], 13); // Latitude et Longitude (ex: Londres)
+	
+			// Ajouter la couche de tuiles d'OpenStreetMap
+			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+			}).addTo(map);
+	
+			// Ajouter un marqueur sur la carte
+			L.marker([48.834663, 2.504317]).addTo(map)
+				.bindPopup('virtuos agency !')
+				.openPopup();
+		</script>
 </body>
 </html>
