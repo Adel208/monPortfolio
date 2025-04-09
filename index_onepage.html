@@ -16,11 +16,8 @@
 	 <!-- Ajouter Leaflet CSS pour OpenStreetMap -->
 	 <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-    
-
-
 	<!-- Title -->
-	<title>adel djebali</title>
+	<title>Adel Djebali</title>
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
@@ -734,6 +731,9 @@
 										<a target="_blank" href="https://www.tiktok.com/@virtuosagency1?lang=fr">
 						<span class="icon fab fa-tiktok"></span>
 					</a>
+					<a target="_blank" href="https://codepen.io/your-work">
+						<span class="icon fab fa-codepen"></span>
+					</a>
 					<a target="_blank" href="https://www.behance.net/adeljebali">
 						<span class="icon fab fa-behance"></span>
 					</a>
@@ -743,6 +743,7 @@
 					<a target="_blank" href="https://www.instagram.com/adel.djeb.144/">
 						<span class="icon fab fa-instagram"></span>
 					</a>
+				</div>
 									</div>
 								</div>
 							</div>
@@ -919,16 +920,16 @@
 					<div class="filter-menu content-box">
 						<div class="filters">
 							<div class="btn-group">
+								<label data-text="Website"><input type="radio" name="fl_radio" value=".f-website" />Website</label>
+							</div>
+							<div class="btn-group">
 								<label data-text="Branding"><input type="radio" name="fl_radio" value=".f-branding" />Branding</label>
 							</div>
 							<div class="btn-group">
 								<label data-text="Web Design"><input type="radio" name="fl_radio" value=".f-webdesign" />Web Design</label>
-							</div>
+							</div>						
 							<div class="btn-group">
-								<label data-text="Affiches"><input type="radio" name="fl_radio" value=".f-affiches" />Affiches</label>
-							</div>
-							<div class="btn-group">
-								<label data-text="Logos"><input type="radio" name="fl_radio" value=".f-logos" />Logos</label>
+								<label data-text="Logo"><input type="radio" name="fl_radio" value=".f-logo" />Logo</label>
 							</div>
 							<div class="btn-group">
 								<label data-text="Illustrations"><input type="radio" name="fl_radio" value=".f-illustrations" />Illustrations</label>
@@ -943,10 +944,10 @@
 					<!-- portfolio items -->
 					<div class="box-items portfolio-items">
 
-						<div class="box-item f-gallery">
+						<div class="box-item f-gallery f-branding f-logos">
 							<div class="image">
-								<a href="work_single_creative.html" class="has-popup-gallery hover-animated">
-									<img src="images/yonovomockup.png" class="wp-post-image" alt="" />
+								<a href="yonovo.html" class="has-popup-gallery hover-animated">
+									<img src="images/yonovo/Yonovo6_page-0021.jpg" class="wp-post-image" alt="" />
 									<span class="info circle">
 										<span class="centrize full-width">
 											<span class="vertical-center">
@@ -968,10 +969,59 @@
 							</div>
 						</div>
 
-						<div class="box-item f-links"> <!-- add class "animate-to-page" if need animated transition to page and delete target="_blank" -->
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="yonovo.html" class="has-popup-gallery hover-animated">
+									<img src="images/DNRDNF/DNR10.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Branding</span>
+													<span class="name">DNRDNF</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<div id="gallery-1" class="mfp-hide">
+									<a href="images/work1.jpg"></a>
+									<a href="images/work2.jpg"></a>
+									<a href="images/work3.jpg"></a>
+									<a href="images/work4.jpg"></a>
+								</div>	
+							</div>
+						</div>
+
+
+
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="poster.html" class="has-popup-gallery hover-animated">
+									<img src="images/ADLENE/adlene6.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Poster</span>
+													<span class="name">Adlene</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+									
+							</div>
+						</div>
+
+						<div class="box-item f-website"> <!-- add class "animate-to-page" if need animated transition to page and delete target="_blank" -->
 							<div class="image">
 								<a href="https://virtuuos.netlify.app/" class="has-popup-link hover-animated" target="_blank" rel="noopener noreferrer">
-									<img src="images/work30.png" class="wp-post-image" alt="" />
+									<img src="images/virtuos/Capture d'écran 2025-04-05 à 01.18.48 AM.png" class="wp-post-image" alt="" />
 									<span class="info circle">
 										<span class="centrize full-width">
 											<span class="vertical-center">
@@ -987,7 +1037,7 @@
 							</div>
 						</div>
 
-						<div class="box-item f-gallery">
+						<div class="box-item f-logo f-branding">
 							<div class="image">
 								<a href="#gallery-2" class="has-popup-gallery hover-animated">
 									<img src="images/OasisConstruction/OasisConstruction-01.png" class="wp-post-image" alt="" />
@@ -1023,8 +1073,33 @@
 							</div>
 						</div>
 
+						<div class="box-item f-logo f-branding">
+							<div class="image">
+								<a href="#gallery-3" class="has-popup-gallery hover-animated">
+									<img src="images/dameombre/DM1.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">OMBRO CD</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-3" class="mfp-hide">
+									<a href="images/dameombre/DM1.png"><img src="images/dameombre/DM1.png" alt=""></a>
+									<a href="images/dameombre/DM2.png"><img src="images/dameombre/DM2.png" alt=""></a>
+									
 
-						<div class="box-item f-gallery">
+								</div>
+							</div>
+						</div>
+
+						<div class="box-item f-illustrations">
 							<div class="image">
 								<a href="#gallery-5" class="has-popup-gallery hover-animated">
 									<img src="images/Messi/A.png" class="wp-post-image" alt="" />
@@ -1033,7 +1108,7 @@
 											<span class="vertical-center">
 												<span class="icon fas fa-images"></span>
 												<span class="desc">
-													<span class="category">Gallery</span>
+													<span class="category">Illustration</span>
 													<span class="name">Face-Swap</span>
 												</span>
 											</span>
@@ -1047,9 +1122,37 @@
 								</div>
 							</div>
 						</div>
+
+
+						<div class="box-item f-logo">
+							<div class="image">
+								<a href="#gallery-6" class="has-popup-gallery hover-animated">
+									<img src="images/texteffect/Black Effect.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Text-Effect</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-6" class="mfp-hide">
+									<a href="images/texteffect/brosh logo.png"><img src="images/texteffect/brosh logo.png" alt=""></a>
+									<a href="images/texteffect/CORNER EFFECT.png"><img src="images/texteffect/effet tourbillon.png" alt=""></a>
+									<a href="images/texteffect/effet tourbillon.png"><img src="images/texteffect/effet tourbillon.png" alt=""></a>
+									<a href="images/texteffect/Glitch.png"><img src="images/texteffect/Glitch.png" alt=""></a>
+									<a href="images/texteffect/liquidy.png"><img src="images/texteffect/liquidy.png" alt=""></a>
+								</div>
+							</div>
+						</div>
 						
 
-						<div class="box-item f-video">
+						<!-- <div class="box-item f-video">
 							<div class="image">
 								<a href="https://youtu.be/S4L8T2kFFck" class="has-popup-video hover-animated">
 									<img src="images/work30.jpg" class="wp-post-image" alt="" />
@@ -1066,26 +1169,99 @@
 									</span>
 								</a>
 							</div>
-						</div>
+						</div> -->
 
-						<div class="box-item f-image">
+						<div class="box-item f-illustrations f-branding">
 							<div class="image">
-								<a href="images/work4.jpg" class="has-popup-image hover-animated">
-									<img src="images/work4.jpg" class="wp-post-image" alt="" />
+								<a href="#popup-japan" class="has-popup-media hover-animated">
+									<img src="images/mockupJapan/a.jpg" class="wp-post-image" alt="" />
 									<span class="info circle">
 										<span class="centrize full-width">
 											<span class="vertical-center">
-												<span class="icon fas fa-image"></span>
+												<span class="icon fas fa-plus"></span>
 												<span class="desc">
 													<span class="category">Image</span>
-													<span class="name">Inspiration in Cap Haitian</span>
+													<span class="name">Mockup Japan</span>
 												</span>
 											</span>
 										</span>
 									</span>
 								</a>
 							</div>
+							<!-- Fenêtre popup -->
+							<div id="popup-japan" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/mockupJapan/a.jpg); height: 400px; background-size: cover; background-position: center;"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="mockup_japan.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
 						</div>
+
+
+						<div class="box-item f-illustrations">
+							<div class="image">
+								<a href="#popup-combo" class="has-popup-media hover-animated">
+									<img src="images/COMBO/Ad1.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Image</span>
+													<span class="name">COMBO</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<!-- Fenêtre popup -->
+							<div id="popup-combo" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/COMBO/Ad5.jpg); height: 400px; background-size: cover; background-position: center;"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="combophotoshop.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
 
 						<!-- <div class="box-item f-image">
 							<div class="image">
@@ -1106,7 +1282,7 @@
 							</div>
 						</div> -->
 
-						<div class="box-item f-music">
+						<!-- <div class="box-item f-music">
 							<div class="image">
 								<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music hover-animated">
 									<img src="images/work6.jpg" class="wp-post-image" alt="" />
@@ -1123,7 +1299,7 @@
 									</span>
 								</a>
 							</div>
-						</div>
+						</div> -->
 
 						<!-- <div class="box-item f-gallery">
 							<div class="image">
@@ -1150,17 +1326,17 @@
 							</div>
 						</div> -->
 
-						<div class="box-item f-content">
+						<div class="box-item f-branding f-illustrations">
 							<div class="image">
 								<a href="#popup-1" class="has-popup-media hover-animated">
-									<img src="images/work8.jpg" class="wp-post-image" alt="" />
+									<img src="images/Anouage/Parfum (2).png" class="wp-post-image" alt="" />
 									<span class="info circle">
 										<span class="centrize full-width">
 											<span class="vertical-center">
 												<span class="icon fas fa-plus"></span>
 												<span class="desc">
 													<span class="category">Content</span>
-													<span class="name">Curved Ceiling Ribs</span>
+													<span class="name">Anouage</span>
 												</span>
 											</span>
 										</span>
@@ -1169,7 +1345,7 @@
 							</div>
 							<div id="popup-1" class="popup-box mfp-fade mfp-hide">
 								<div class="content">
-									<div class="image" style="background-image: url(images/work8.jpg);"></div>
+									<div class="image" style="background-image: url(images/Anouage/Parfum\ \(2\).png);"></div>
 									<div class="desc single-post-text">
 										<div class="category">Content</div>
 										<h4>Hand holding pyramid painting</h4>
@@ -1185,7 +1361,7 @@
 										<p>
 											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
 										</p>
-										<a href="works_single_1.html" class="btn hover-animated">
+										<a href="amouage.html" class="btn hover-animated">
 											<span class="circle"></span>
 											<span class="lnk">View Project</span>
 										</a>
@@ -1194,8 +1370,50 @@
 							</div>
 						</div>
 
+						<div class="box-item f-branding">
+							<div class="image">
+								<a href="#popup-2" class="has-popup-media hover-animated">
+									<img src="images/yonovo/yonovomockup1.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Brands</span>
+													<span class="name">Yonovo</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/yonovo/Yonovo6_page-0022.jpg);"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="yonovo.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
-
 					<div class="clear"></div>
 				</div>
 			</div>
@@ -1315,6 +1533,9 @@
 					<a target="_blank" href="https://www.tiktok.com/@virtuosagency1?lang=fr">
 						<span class="icon fab fa-tiktok"></span>
 					</a>
+					<a target="_blank" href="https://codepen.io/your-work">
+						<span class="icon fab fa-codepen"></span>
+					</a>
 					<a target="_blank" href="https://www.behance.net/adeljebali">
 						<span class="icon fab fa-behance"></span>
 					</a>
@@ -1324,6 +1545,7 @@
 					<a target="_blank" href="https://www.instagram.com/adel.djeb.144/">
 						<span class="icon fab fa-instagram"></span>
 					</a>
+				</div>
 				</div>
 			</div>
 			

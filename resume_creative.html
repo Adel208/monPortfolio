@@ -10,12 +10,16 @@
 	<meta name="keywords" content="vcard, resposnive, resume, personal, card, cv, virtuos, portfolio" />
 	<meta name="author" content="beshleyua" />
 
+	
+	<!-- Ajouter Leaflet CSS pour OpenStreetMap -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
 	<!-- Title -->
-	<title>adel djebalie</title>
+	<title>Adel Djebali</title>
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=cyrillic" rel="stylesheet">
-
+	
 	<!-- Styles -->
 	<link rel="stylesheet" href="css/basic.css" />
 	<link rel="stylesheet" href="css/layout.css" />
@@ -116,15 +120,25 @@
 										<!-- <li class="menu-item"><a href="works.html">Works Default</a></li> -->
 										<li class="menu-item"><a href="works_creative.html">Works Creative</a></li>
 										<!-- <li class="menu-item"><a href="work_single.html">Work Single</a></li> -->
-										<li class="menu-item current-menu-item"><a href="work_single_image.html">Yonovo 1.0</a></li>
+										<li class="menu-item current-menu-item"><a href="yonovo.html">Yonovo 1.0</a></li>
 										<!-- <li class="menu-item"><a href="work_single_creative.html">Yonovo</a></li> -->
-                                        <li class="menu-item"><a href="mockup_japan.html">Mockup Japan</a></li>
-                                        <li class="menu-item"><a href="amouage.html">Amouage</a></li>
+										<li class="menu-item"><a href="mockup_japan.html">Mockup Japan</a></li>
+										<li class="menu-item"><a href="amouage.html">Amouage</a></li>
 										<li class="menu-item"><a href="elegance.html">Elegance</a></li>
-                                        <li class="menu-item"><a href="messi.html">Messi</a></li>
+										<li class="menu-item"><a href="messi.html">Messi</a></li>
+										<li class="menu-item"><a href="poster.html"></a></li>
+										<li class="menu-item"><a href="dnrdnf.html">DNRDNF</a></li>
+										<li class="menu-item"><a href="">Text-Effect</a></li>
+										<li class="menu-item"><a href="numa.html">Numa</a></li>
+										<li class="menu-item"><a href="combophotoshop.html">Combo</a></li>
 										<li class="menu-item">
 											<a href="https://www.tiktok.com/@virtuosagency1?lang=fr" target="_blank">
 												TikTok
+											</a>
+										</li>
+										<li class="menu-item">
+											<a href="https://virtuoss.netlify.app/" target="_blank">
+												Virtuos Agency
 											</a>
 										</li>
 									</ul>
@@ -189,28 +203,34 @@
 
 			<!-- Section About -->
 			<div class="section about" id="section-about">
+
+				<!-- title -->
+				<div class="title">
+					<div class="title_inner">About</div>
+				</div>
+
 				<div class="content content-box">
 
 					<!-- image -->
 					<div class="image">
-						<img src="images/equipe/Adel.png" alt="" />
+						<img src="images/equipe/Adel petit format.png" alt="" />
 					</div>
 
 					<!-- desc -->
 					<div class="desc">
-						<p><p>Hello! I’m Adel Djebali. Web designer from USA, California, San Francisco. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
+						<p>Hello! I’m Adel Djebali. Web designer from France, Paris. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>
 						<div class="info-list">
 							<ul>
-								<li><strong>Age:</strong> 45</li>
+								<li><strong>Age:</strong> 46</li>
 								<li><strong>Residence:</strong> France</li>
 								<li><strong>Freelance:</strong> Available</li>
 								<li><strong>Address:</strong> Paris</li>
-								<li><strong>Phone:</strong> +33 7 81 45 19 66</li>
-								<li><strong>E-mail:</strong> Adeldjebal@gmail.com</li>
+								<li><strong>Phone:</strong> + (33) 7 81 45 19 66</li>
+								<li><strong>E-mail:</strong> adeldjebal@gmail.com</li>
 							</ul>
 						</div>
 						<div class="bts">
-							<a href="https://cvdesignr.com/p/662fa6dff1094?hl=fr_FR" class="btn hover-animated" target="_blank" rel="noopener noreferrer">
+							<a href="https://cvdesignr.com/p/662fa6dff1094?hl=fr_FR" class="btn hover-animated">
 								<span class="circle"></span>
 								<span class="lnk">Download CV</span>
 							</a>
@@ -222,70 +242,73 @@
 			</div>
 
 			<!-- Section Service -->
-<div class="section service" id="section-services">
-    <div class="content">
+			<div class="section service" id="section-services">
+				<div class="content">
 
-        <!-- title -->
-        <div class="title">
-            <div class="title_inner">Services</div>
-        </div>
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Services</div>
+					</div>
 
-        <!-- service items -->
-        <div class="service-items">
+					<!-- service items -->
+					<div class="service-items">
 
-			<div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-brush"></span></div>
-                    <div class="name">Brand Identity & Graphics</div>
-                    <div class="text">Logo design, social media graphics, and complete brand identity solutions to elevate your business.</div>
-                </div>
-            </div>
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-code"></span></div>
+								<div class="name">Web Development</div>
+								<div class="text">Modern and mobile-ready website that will help you reach all of your marketing.</div>
+							</div>
+						</div>
+						
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-users"></span></div> 
+								<div class="name">Community Management</div> 
+								<div class="text">Managing your brand's online presence through engaging social media content, strategies, and interactions.</div> 
+							</div>
+						</div>
+						
 
-            <div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-paint-brush"></span></div>
-                    <div class="name">Web Design</div>
-                    <div class="text">Creating modern, visually appealing, and user-friendly website designs tailored to your brand identity.</div>
-                </div>
-            </div>
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-ad"></span></div>
+								<div class="name">Advetising</div>
+								<div class="text">Advertising services include television, radio, print, mail, and web apps.</div>
+							</div>
+						</div>
 
-            <div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-code"></span></div>
-                    <div class="name">Web Development</div>
-                    <div class="text">Building responsive and high-performance websites using HTML, CSS, JavaScript, and modern frameworks.</div>
-                </div>
-            </div>
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-paint-brush"></span></div>
+								<div class="name">UI/UX Design</div>
+								<div class="text">Designing intuitive and visually appealing interfaces that enhance user engagement and satisfaction.</div>
+							</div>
+						</div>
+						
 
-            <div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-store"></span></div>
-                    <div class="name">E-commerce Development</div>
-                    <div class="text">Designing and developing online stores with secure payment integrations and an optimized user experience.</div>
-                </div>
-            </div>
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-laptop-code"></span></div>
+								<div class="name">Responsive Design</div>
+								<div class="text">Creating modern and mobile-ready websites to ensure a seamless user experience across all devices.</div>
+							</div>
+						</div>
+						
 
-            <div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-search"></span></div>
-                    <div class="name">SEO Optimization</div>
-                    <div class="text">Enhancing website visibility and ranking on search engines through advanced SEO strategies.</div>
-                </div>
-            </div>
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-chart-line"></span></div>
+								<div class="name">SEO Optimization</div>
+								<div class="text">Implementing best practices to improve website visibility and ranking on search engines.</div>
+							</div>
+						</div>
 
-            <div class="service-col">
-                <div class="service-item content-box">
-                    <div class="icon"><span class="fas fa-mobile-alt"></span></div>
-                    <div class="name">Mobile-First Design</div>
-                    <div class="text">Ensuring a seamless experience on all devices with fully responsive and adaptive web designs.</div>
-                </div>
-            </div>
+					</div>
 
-        </div>
-
-        <div class="clear"></div>
-    </div>
-</div>
+					<div class="clear"></div>
+				</div>
+			</div>
 
 			<!-- Section Pricing -->
 <div class="section pricing" id="section-pricing">
@@ -294,14 +317,6 @@
         <!-- title -->
         <div class="title">
             <div class="title_inner">Pricing Table</div>
-        </div>
-
-        <!-- introduction -->
-        <div class="pricing-intro">
-            <p>
-                Affordable and transparent pricing for businesses of all sizes. 
-                Get a modern, high-performance website tailored to your needs.
-            </p>
         </div>
 
         <!-- pricing items -->
@@ -317,22 +332,23 @@
                     <div class="amount">
                         <span class="number">
                             <span class="dollar">$</span>
-                            <span>499</span>
+                            <span>699</span>
                             <span class="period">/ project</span>
                         </span>
                     </div>
                     <div class="feature-list">
                         <ul>
                             <li>Web Design (1-3 pages)</li>
-                            <li>Basic Development</li>
-                            <li>Responsive Design</li>
+                            <li>Advanced Development</li>
+                            <li>High-Speed Performance</li>
                             <li>Basic SEO</li>
-                            <li class="disable">E-commerce</li>
+                            <li class="disable">E-commerce (Shopify, WooCommerce)</li>
                             <li class="disable">Branding</li>
+							<li class="disable">API integration</li>
                         </ul>
                     </div>
                     <div class="bts">
-                        <a href="#" class="btn hover-animated">
+                        <a href="pricing.html" class="btn hover-animated">
                             <span class="circle"></span>
                             <span class="lnk">Get Started</span>
                         </a>
@@ -350,7 +366,7 @@
                     <div class="amount">
                         <span class="number">
                             <span class="dollar">$</span>
-                            <span>1199</span>
+                            <span>1299</span>
                             <span class="period">/ project</span>
                         </span>
                     </div>
@@ -362,10 +378,11 @@
                             <li>SEO Optimization</li>
                             <li>E-commerce (Shopify, WooCommerce)</li>
                             <li>Branding & Identity</li>
+							<li>API integration</li>
                         </ul>
                     </div>
                     <div class="bts">
-                        <a href="#" class="btn hover-animated">
+                        <a href="pricing.html" class="btn hover-animated">
                             <span class="circle"></span>
                             <span class="lnk">Get Started</span>
                         </a>
@@ -379,125 +396,80 @@
 </div>
 
 
-
 			<!-- Section Resume -->
-<div class="section resume" id="section-history">
-	<div class="content">
-		<div class="cols">
+			<div class="section resume" id="section-history">
+				<div class="content">
+					<div class="cols">
 
-			<div class="col col-md">
+						<div class="col col-md">
 
-				<!-- title -->
-				<div class="title">
-					<div class="title_inner">Experience</div>
-				</div>
-				
-				<!-- resume items -->
-				<div class="resume-items">
-
-					<div class="resume-item content-box active">
-						<div class="date">June 2023 - August 2023</div>
-						<div class="name">Application Developer - MRH Evolution, Paris</div>
-						<div class="text">
-							Built a booking system with Java Spring Boot.<br>
-							Designed UI mockups and branding.<br>
-							<!-- Developed full-stack functionalities.<br> -->
+							<!-- title -->
+							<div class="title">
+								<div class="title_inner">Experience</div>
+							</div>
 							
+							<!-- resume items -->
+							<div class="resume-items">
+								
+								<div class="resume-item content-box active">
+									<div class="date">2022 - Present</div>
+									<div class="name">Graphic Designer Developer.</div>
+									<div class="text">Monitored technical aspects of the front-end delivery for website projects.</div>
+								</div>
+
+								<div class="resume-item content-box">
+									<div class="date">2021 - 2022</div>
+									<div class="name">Webdesigner </div>
+									<div class="text">Monitored technical aspects of the front-end delivery for projects.</div>
+								</div>
+
+								<div class="resume-item content-box">
+									<div class="date">2017 - 2020</div>
+									<div class="name">Developer wordpress freelance.</div>
+									<div class="text">Optimize your website and apps performance using latest technology.</div>
+								</div>
+
+							</div>
+
 						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">March 2022 - August 2022</div>
-						<div class="name">Web Designer - Philiance, Paris</div>
-						<div class="text">
-							Designed and integrated website visuals.<br>
-							Created content for social media.<br>
-							<!-- Developed mobile app branding prototypes.<br> -->
+						
+						<div class="col col-md">
+
+							<!-- title -->
+							<div class="title">
+								<div class="title_inner">Education</div>
+							</div>
 							
-						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">Since January 2017</div>
-						<div class="name">Freelance Web Designer & Developer - ADJEB, Paris</div>
-						<div class="text">
-							Developed a site with 120K visitors.<br>
-							<!-- Built websites using HTML, CSS, JS.<br> -->
-							Managed social media pages (500K+ views).<br>
-						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">January 2010 - December 2018</div>
-						<div class="name">Entrepreneur - ADJEB, Paris</div>
-						<div class="text">
-							Managed legal and fiscal responsibilities.<br>
-							<!-- Recruited and led a team.<br> -->
-							Attended events to build partnerships.
-						</div>
-					</div>
-				
-				</div>
+							<!-- resume items -->
+							<div class="resume-items">
 
+								<div class="resume-item content-box">
+									<div class="date">2023 - 2024</div>
+									<div class="name">Greta Paris</div>
+									<div class="text">Concepteur Développeur d’application mobile (CDA)</div>
+									<div class="text">Concepteur Développeur d’application mobile (CDA)</div>
+								</div>
+
+								<div class="resume-item content-box">
+									<div class="date">2022 - 2023</div>
+									<div class="name">Philliance - Paris</div>
+									<div class="text">Webdesigner.</div>
+									<div class="text">Concepteur Développeur d’application mobile (CDA)</div>
+								</div>
+
+								<div class="resume-item content-box">
+									<div class="date">2021 - 2022</div>
+									<div class="name">Freecodecamp - Paris</div>
+									<div class="text">JavaScript Algorithms and Data Structures(300 hours).</div>
+									<div class="text">JavaScript Algorithms and Data Structures(300 hours).</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
 			</div>
-			
-			<div class="col col-md">
-
-				<!-- title -->
-				<div class="title">
-					<div class="title_inner">Education</div>
-				</div>
-				
-				<!-- resume items -->
-				<div class="resume-items">
-
-					<div class="resume-item content-box">
-						<div class="date">March 2023 - November 2023</div>
-						<div class="name">Mobile Application Developer (CDA) - GRETA</div>
-						<div class="text">
-							Training in mobile development, UI/UX, front-end, back-end, and database.
-						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">March 2021 - December 2022</div>
-						<div class="name">Web Designer - Philiance, Évry</div>
-						<div class="text">
-							Studied web design, UI/UX, and graphic techniques for modern sites.
-						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">May 2022 - June 2023</div>
-						<div class="name">Front-End Development Libraries (300h) - FreeCodeCamp</div>
-						<div class="text">
-							Learned React.js, Bootstrap, jQuery to create interactive web apps.
-						</div>
-					</div>
-				
-					<div class="resume-item content-box">
-						<div class="date">March 2021 - May 2022</div>
-						<div class="name">JavaScript Algorithms and Data Structures - FreeCodeCamp</div>
-						<div class="text">
-							Mastered JavaScript, algorithms, and problem-solving for web apps.
-						</div>
-					</div>
-				
-					<!-- <div class="resume-item content-box">
-						<div class="date">December 2022 - January 2023</div>
-						<div class="name">Responsive Web Design Certification FreeCodeCamp</div>
-						<div class="text">
-							Gained expertise in HTML, CSS, and responsive techniques for mobile sites.
-						</div>
-					</div> -->
-				
-				</div>
-				
-			</div>
-
-		</div>
-	</div>
-</div>
 
 			<!-- Section Design Skills -->
 			<div class="section skills" id="section-skills">
@@ -512,7 +484,15 @@
 					<div class="skills percent content-box">
 						<ul>
 							<li> 
-								<div class="name">Graphic Design</div>
+								<div class="name">Web Design</div>
+								<div class="progress ">
+									<div class="percentage" style="width: 95%;">
+										<span class="percent">90%</span>
+									</div>
+								</div>
+							</li>
+							<li> 
+								<div class="name">Illustrations</div>
 								<div class="progress ">
 									<div class="percentage" style="width: 90%;">
 										<span class="percent">90%</span>
@@ -520,15 +500,7 @@
 								</div>
 							</li>
 							<li> 
-								<div class="name">Branding & Identity</div>
-								<div class="progress ">
-									<div class="percentage" style="width: 80%;">
-										<span class="percent">80%</span>
-									</div>
-								</div>
-							</li>
-							<li> 
-								<div class="name">Photoshop & Retouching</div>
+								<div class="name">Photoshop illustrator</div>
 								<div class="progress ">
 									<div class="percentage" style="width: 95%;">
 										<span class="percent">95%</span>
@@ -536,7 +508,7 @@
 								</div>
 							</li>
 							<li>
-								<div class="name">Web Design</div>
+								<div class="name">Graphic Design</div>
 								<div class="progress ">
 									<div class="percentage" style="width: 85%;">
 										<span class="percent">85%</span>
@@ -572,24 +544,24 @@
 							<li> 
 								<div class="name">Arabic</div>
 								<div class="progress">
-									<div class="percentage" style="width: 99%;">
-										<span class="percent">99%</span>
+									<div class="percentage" style="width: 96%;">
+										<span class="percent">96%</span>
 									</div>
 								</div>
 							</li>
 							<li> 
 								<div class="name">French</div>
 								<div class="progress">
-									<div class="percentage" style="width: 99%;">
-										<span class="percent">99%</span>
+									<div class="percentage" style="width: 97%;">
+										<span class="percent">97%</span>
 									</div>
 								</div>
 							</li>
 							<li> 
 								<div class="name">German</div>
 								<div class="progress">
-									<div class="percentage" style="width: 70%;">
-										<span class="percent">70%</span>
+									<div class="percentage" style="width: 85%;">
+										<span class="percent">85%</span>
 									</div>
 								</div>
 							</li>
@@ -600,125 +572,103 @@
 			</div>
 
 			<!-- Section Coding Skills -->
-<div class="section skills" id="section-skills-code">
-    <div class="content">
-        
-        <!-- title -->
-        <div class="title">
-            <div class="title_inner">Coding Skills</div>
-        </div>
+			<div class="section skills" id="section-skills-code">
+				<div class="content">
+					
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Coding Skills</div>
+					</div>
 
-        <!-- skills items -->
-        <div class="skills circles content-box">
-            <ul>
-				<li> 
-                    <div class="name">WordPress</div>
-                    <div class="progress p90"> 
-                        <div class="percentage"><span class="percent">90%</span></div>
-                        <span>90%</span>
-                    </div>
-                </li>
-                <li> 
-                    <div class="name">HTML XML </div>
-                    <div class="progress p95"> 
-                        <div class="percentage"><span class="percent">95%</span></div>
-                        <span>95%</span>
-                    </div>
-                </li>
-				<li> 
-                    <div class="name">CSS </div>
-                    <div class="progress p75"> 
-                        <div class="percentage"><span class="percent">75%</span></div>
-                        <span>75%</span>
-                    </div>
-                </li>
-                <li> 
-                    <div class="name">JavaScript</div>
-                    <div class="progress p85"> 
-                        <div class="percentage"><span class="percent">85%</span></div>
-                        <span>85%</span>
-                    </div>
-                </li>
-                <li> 
-                    <div class="name">Bootstrap</div>
-                    <div class="progress p80"> 
-                        <div class="percentage"><span class="percent">80%</span></div>
-                        <span>80%</span>
-                    </div>
-                </li>
-				<li> 
-                    <div class="name">github</div>
-                    <div class="progress p90"> 
-                        <div class="percentage"><span class="percent">90%</span></div>
-                        <span>90%</span>
-                    </div>
-                </li>
-                
-                <li> 
-                    <div class="name">Database (MongoDB)</div>
-                    <div class="progress p70"> 
-                        <div class="percentage"><span class="percent">70%</span></div>
-                        <span>70%</span>
-                    </div>
-                </li>
-                <li> 
-                    <div class="name">Java Spring</div>
-                    <div class="progress p69"> 
-                        <div class="percentage"><span class="percent">69%</span></div>
-                        <span>69%</span>
-                    </div>
-                </li>
-            </ul>
-        </div>
+					<!-- skills items -->
+					<div class="skills circles content-box">
+						<ul>
+							<li> 
+								<div class="name">Html Css</div>
+								<div class="progress p95"> <!-- p90 = 90% circle fill color -->
+									<div class="percentage">
+										<span class="percent">95%</span>
+									</div>
+									<span>95%</span>
+								</div>
+							</li>
+							<li> 
+								<div class="name">Javascript</div>
+								<div class="progress p80"> <!-- p75 = 75% circle fill color -->
+									<div class="percentage">
+										<span class="percent">80%</span>
+									</div>
+									<span>80%</span>
+								</div>
+							</li>
+							<li> 
+								<div class="name">Mysql</div>
+								<div class="progress p85"> <!-- p85 = 85% circle fill color -->
+									<div class="percentage">
+										<span class="percent">85%</span>
+									</div>
+									<span>85%</span>
+								</div>
+							</li>
+							<li> 
+								<div class="name">Java Spring</div>
+								<div class="progress p75"> 
+									<div class="percentage">
+										<span class="percent">75%</span>
+									</div>
+									<span>75%</span>
+								</div>
+							</li>
+						</ul>
+					</div>
 
-    </div>
-</div>
+				</div>
+			</div>
 
+			<!-- Section Knowladge Skills -->
+			<div class="section skills" id="section-skills-know">
+				<div class="content">
 
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Knowledge</div>
+					</div>
 
+					<!-- skills -->
+					<div class="skills list content-box">
+						<ul>
+							<li> 
+								<div class="name">Website hosting</div>
+							</li>
+							<li> 
+								<div class="name">Wordpress responsive</div>
+							</li>
+							<li> 
+								<div class="name">Create logo design</div>
+							</li>
+							<li> 
+								<div class="name">Design for print</div>
+							</li>
+							<li> 
+								<div class="name">Community management</div>
+							</li>
+							<li> 
+								<div class="name">Advertising services include</div>
+							</li>
+							<li> 
+								<div class="name">Graphics and animations</div>
+							</li>
+							<li> 
+								<div class="name">Search engine marketing</div>
+							</li>
+							<li> 
+								<div class="name">Seo Optimization</div>
+							</li>
+						</ul>
+					</div>
 
-			<!-- Section Knowledge Skills -->
-<div class="section skills" id="section-skills-know">
-    <div class="content">
-
-        <!-- title -->
-        <div class="title">
-            <div class="title_inner">Knowledge</div>
-        </div>
-
-        <!-- skills -->
-        <div class="skills list content-box">
-            <ul>
-                <li> 
-                    <div class="name">UI/UX Design & Prototyping</div>
-                </li>
-                <li> 
-                    <div class="name">Branding & Visual Identity</div>
-                </li>
-                <li> 
-                    <div class="name">Custom WordPress Development</div>
-                </li>
-                <li> 
-                    <div class="name">Responsive & Mobile-First Design</div>
-                </li>
-                <li> 
-                    <div class="name">SEO & Performance Optimization</div>
-                </li>
-                <li> 
-                    <div class="name">Creative Direction & Artworks</div>
-                </li>
-                <li> 
-                    <div class="name">Motion Design & Micro-interactions</div>
-                </li>
-                <li> 
-                    <div class="name">Social Media & Advertising Graphics</div>
-                </li>
-            </ul>
-        </div>
-
-    </div>
-</div>
-
+				</div>
+			</div>
 
 			<!-- Section Interests -->
 <div class="section service" id="section-interests">
@@ -777,7 +727,6 @@
     </div>
 </div>
 
-
 			<!-- Section Team -->
 			<div class="section team" id="section-team">
 				<div class="content">
@@ -826,6 +775,9 @@
 										<a target="_blank" href="https://www.tiktok.com/@virtuosagency1?lang=fr">
 						<span class="icon fab fa-tiktok"></span>
 					</a>
+					<a target="_blank" href="https://codepen.io/your-work">
+						<span class="icon fab fa-codepen"></span>
+					</a>
 					<a target="_blank" href="https://www.behance.net/adeljebali">
 						<span class="icon fab fa-behance"></span>
 					</a>
@@ -835,6 +787,7 @@
 					<a target="_blank" href="https://www.instagram.com/adel.djeb.144/">
 						<span class="icon fab fa-instagram"></span>
 					</a>
+				</div>
 									</div>
 								</div>
 							</div>
@@ -854,71 +807,67 @@
 						<div class="title_inner">Testimonials</div>
 					</div>
 
-					<!-- Testimonials items -->
-<div class="reviews-carousel">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
+					<!-- testimonials items -->
+					<div class="reviews-carousel">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
 
-            <!-- Testimonial 1 -->
-            <div class="swiper-slide">
-                <div class="reviews-item content-box">
-                    <div class="image">
-                        <img src="images/testimonial1/M1.webp" alt="Emily Carter">
-                    </div>
-                    <div class="info">
-                        <div class="name">Emily Carter</div>
-                        <div class="company">CEO, Carter Agency</div>
-                    </div>
-                    <div class="text">
-                        "Adel perfectly captured our brand identity and created a website that exceeded our expectations. His attention to detail and professionalism are outstanding!"
-                    </div>
-                </div>
-            </div>
+								<!-- Testimonial 1 -->
+								<div class="swiper-slide">
+									<div class="reviews-item content-box">
+										<div class="image">
+											<img src="images/testimonial1/M1.webp" alt="Emily Carter">
+										</div>
+										<div class="info">
+											<div class="name">Emily Carter</div>
+											<div class="company">CEO, Carter Agency</div>
+										</div>
+										<div class="text">
+											"Adel perfectly captured our brand identity and created a website that exceeded our expectations. His attention to detail and professionalism are outstanding!"
+										</div>
+									</div>
+								</div>
+					
+								<!-- Testimonial 2 -->
+								<div class="swiper-slide">
+									<div class="reviews-item content-box">
+										<div class="image">
+											<img src="images/testimonial1/M3.webp" alt="Lucas Moreau">
+										</div>
+										<div class="info">
+											<div class="name">Lucas Moreau</div>
+											<div class="company">Marketing Manager, NexaTech</div>
+										</div>
+										<div class="text">
+											"A smooth and efficient collaboration! Adel developed a fast and modern website that perfectly represents our brand. Highly recommended!"
+										</div>
+									</div>
+								</div>
+					
+								<!-- Testimonial 3 -->
+								<div class="swiper-slide">
+									<div class="reviews-item content-box">
+										<div class="image">
+											<img src="images/testimonial1/A2.png" alt="Sophie Lambert">
+										</div>
+										<div class="info">
+											<div class="name">Sophie Lambert</div>
+											<div class="company">Founder, Studio Lumière</div>
+										</div>
+										<div class="text">
+											"Adel turned our vision into a sleek and intuitive digital platform. A true expert in both design and development,happy to working with you !"
+										</div>
+									</div>
+								</div>
 
-            <!-- Testimonial 2 -->
-            <div class="swiper-slide">
-                <div class="reviews-item content-box">
-                    <div class="image">
-                        <img src="images/testimonial1/M3.webp" alt="Lucas Moreau">
-                    </div>
-                    <div class="info">
-                        <div class="name">Lucas Moreau</div>
-                        <div class="company">Marketing Manager, NexaTech</div>
-                    </div>
-                    <div class="text">
-                        "A smooth and efficient collaboration! Adel developed a fast and modern website that perfectly represents our brand. Highly recommended!"
-                    </div>
-                </div>
-            </div>
-
-			<!-- Testimonial 3 -->
-            <div class="swiper-slide">
-                <div class="reviews-item content-box">
-                    <div class="image">
-                        <img src="images/testimonial1/A2.png" alt="Sophie Lambert">
-                    </div>
-                    <div class="info">
-                        <div class="name">Sophie Lambert</div>
-                        <div class="company">Founder, Studio Lumière</div>
-                    </div>
-                    <div class="text">
-                        "Adel turned our vision into a sleek and intuitive digital platform. A true expert in both design and development, happy to working with him!"
-                    </div>
-                </div>
-            </div>
-
-            
-
-        </div>
-    </div>
-</div>
-
+							</div>
+						</div>
 
 						<!-- navigation -->
-						<!-- <div class="swiper-nav">
+						<div class="swiper-nav">
 							<a class="prev swiper-button-prev fas fa-long-arrow-alt-left"></a>
 							<a class="next swiper-button-next fas fa-long-arrow-alt-right"></a>
-						</div> -->
+						</div>
 
 					</div>
 					
@@ -983,7 +932,7 @@
 
 					<!-- title -->
 					<div class="title">
-						<div class="title_inner">Shape Your Identity</div>
+						<div class="title_inner">Custom Text</div>
 					</div>
 
 					<!-- clients items -->
@@ -1002,32 +951,649 @@
 				</div>
 			</div>
 
+			<!-- Works -->
+			<div class="section works" id="section-portfolio">
+				<div class="content">
+
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Portfolio</div>
+					</div>
+				
+					<!-- portfolio filter -->
+					<div class="filter-menu content-box">
+						<div class="filters">
+							<div class="btn-group">
+								<label data-text="Branding"><input type="radio" name="fl_radio" value=".f-branding" />Branding</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Web Design"><input type="radio" name="fl_radio" value=".f-webdesign" />Web Design</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Affiches"><input type="radio" name="fl_radio" value=".f-affiches" />Affiches</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Logos"><input type="radio" name="fl_radio" value=".f-logos" />Logos</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Illustrations"><input type="radio" name="fl_radio" value=".f-illustrations" />Illustrations</label>
+							</div>
+							<div class="btn-group">
+								<label data-text="Autres"><input type="radio" name="fl_radio" value=".f-autres" />Autres</label>
+							</div>
+							
+						</div>
+					</div>
+					
+					<!-- portfolio items -->
+					<div class="box-items portfolio-items">
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="yonovo.html" class="has-popup-gallery hover-animated">
+									<img src="images/yonovo/Yonovo6_page-0021.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Branding</span>
+													<span class="name">Yonovo</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<div id="gallery-1" class="mfp-hide">
+									<a href="images/work1.jpg"></a>
+									<a href="images/work2.jpg"></a>
+									<a href="images/work3.jpg"></a>
+									<a href="images/work4.jpg"></a>
+								</div>	
+							</div>
+						</div>
+
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="yonovo.html" class="has-popup-gallery hover-animated">
+									<img src="images/DNRDNF/DNR10.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Branding</span>
+													<span class="name">DNRDNF</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<div id="gallery-1" class="mfp-hide">
+									<a href="images/work1.jpg"></a>
+									<a href="images/work2.jpg"></a>
+									<a href="images/work3.jpg"></a>
+									<a href="images/work4.jpg"></a>
+								</div>	
+							</div>
+						</div>
+
+
+
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="poster.html" class="has-popup-gallery hover-animated">
+									<img src="images/ADLENE/adlene6.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Poster</span>
+													<span class="name">Adlene</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+									
+							</div>
+						</div>
+
+						<div class="box-item f-links"> <!-- add class "animate-to-page" if need animated transition to page and delete target="_blank" -->
+							<div class="image">
+								<a href="https://virtuuos.netlify.app/" class="has-popup-link hover-animated" target="_blank" rel="noopener noreferrer">
+									<img src="images/virtuos/Capture d'écran 2025-04-05 à 01.18.48 AM.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-link"></span>
+												<span class="desc">
+													<span class="category">Website</span>
+													<span class="name">Virtuos Agency</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>	
+							</div>
+						</div>
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-2" class="has-popup-gallery hover-animated">
+									<img src="images/OasisConstruction/OasisConstruction-01.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Oasis Construction</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-2" class="mfp-hide">
+									<a href="images/OasisConstruction/OasisConstruction-02.png"><img src="images/work70.png" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-03.png"><img src="images/work2.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-04.png"><img src="images/work3.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-06.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-07.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-08.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-09.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-10.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-11.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-12.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-13.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-14.png"><img src="images/work4.jpg" alt=""></a>
+									<a href="images/OasisConstruction/OasisConstruction-15.png"><img src="images/work4.jpg" alt=""></a>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-3" class="has-popup-gallery hover-animated">
+									<img src="images/dameombre/DM1.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">OMBRO CD</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-3" class="mfp-hide">
+									<a href="images/dameombre/DM1.png"><img src="images/dameombre/DM1.png" alt=""></a>
+									<a href="images/dameombre/DM2.png"><img src="images/dameombre/DM2.png" alt=""></a>
+									
+
+								</div>
+							</div>
+						</div>
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-5" class="has-popup-gallery hover-animated">
+									<img src="images/Messi/A.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Face-Swap</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-5" class="mfp-hide">
+									<a href="images/Messi/A.png"><img src="images/Messi/A.png" alt=""></a>
+									<a href="images/Messi/B.png"><img src="images/Messi/B.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-6" class="has-popup-gallery hover-animated">
+									<img src="images/texteffect/Black Effect.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Text-Effect</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<!-- Galerie cachée -->
+								<div id="gallery-6" class="mfp-hide">
+									<a href="images/texteffect/brosh logo.png"><img src="images/texteffect/brosh logo.png" alt=""></a>
+									<a href="images/texteffect/CORNER EFFECT.png"><img src="images/texteffect/effet tourbillon.png" alt=""></a>
+									<a href="images/texteffect/effet tourbillon.png"><img src="images/texteffect/effet tourbillon.png" alt=""></a>
+									<a href="images/texteffect/Glitch.png"><img src="images/texteffect/Glitch.png" alt=""></a>
+									<a href="images/texteffect/liquidy.png"><img src="images/texteffect/liquidy.png" alt=""></a>
+								</div>
+							</div>
+						</div>
+						
+
+						<!-- <div class="box-item f-video">
+							<div class="image">
+								<a href="https://youtu.be/S4L8T2kFFck" class="has-popup-video hover-animated">
+									<img src="images/work30.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-video"></span>
+												<span class="desc">
+													<span class="category">Website</span>
+													<span class="name">Fertility of Some Plants</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div> -->
+
+						<div class="box-item f-image">
+							<div class="image">
+								<a href="#popup-japan" class="has-popup-media hover-animated">
+									<img src="images/mockupJapan/a.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Image</span>
+													<span class="name">Mockup Japan</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<!-- Fenêtre popup -->
+							<div id="popup-japan" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/mockupJapan/a.jpg); height: 400px; background-size: cover; background-position: center;"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="mockup_japan.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="box-item f-image">
+							<div class="image">
+								<a href="#popup-combo" class="has-popup-media hover-animated">
+									<img src="images/COMBO/Ad1.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Image</span>
+													<span class="name">COMBO</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<!-- Fenêtre popup -->
+							<div id="popup-combo" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/COMBO/Ad5.jpg); height: 400px; background-size: cover; background-position: center;"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="combophotoshop.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+
+						<!-- <div class="box-item f-image">
+							<div class="image">
+								<a href="images/work70.png" class="has-popup-image hover-animated">
+									<img src="images/work70.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-image"></span>
+												<span class="desc">
+													<span class="category">Image</span>
+													<span class="name">Face`-Swap</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div> -->
+
+						<!-- <div class="box-item f-music">
+							<div class="image">
+								<a href="https://w.soundcloud.com/player/?visual=true&#038;url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F221650664&#038;show_artwork=true" class="has-popup-music hover-animated">
+									<img src="images/work6.jpg" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-music"></span>
+												<span class="desc">
+													<span class="category">Music</span>
+													<span class="name">Dark Bike</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+						</div> -->
+
+						<!-- <div class="box-item f-gallery">
+							<div class="image">
+								<a href="#gallery-2" class="has-popup-gallery hover-animated">
+									<img src="images/work70.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-images"></span>
+												<span class="desc">
+													<span class="category">Gallery</span>
+													<span class="name">Oasis Construction</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+								<div id="gallery-2" class="mfp-hide">
+									<a href="images/work70.png"></a>
+									<a href="images/work70.png"></a>
+									<a href="images/work2.jpg"></a>
+									<a href="images/work70.png"></a>
+								</div>
+							</div>
+						</div> -->
+
+						<div class="box-item f-content">
+							<div class="image">
+								<a href="#popup-1" class="has-popup-media hover-animated">
+									<img src="images/Anouage/Parfum (2).png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Content</span>
+													<span class="name">Anouage</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<div id="popup-1" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/Anouage/Parfum\ \(2\).png);"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="amouage.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="box-item f-content">
+							<div class="image">
+								<a href="#popup-2" class="has-popup-media hover-animated">
+									<img src="images/yonovo/yonovomockup1.png" class="wp-post-image" alt="" />
+									<span class="info circle">
+										<span class="centrize full-width">
+											<span class="vertical-center">
+												<span class="icon fas fa-plus"></span>
+												<span class="desc">
+													<span class="category">Brands</span>
+													<span class="name">Yonovo</span>
+												</span>
+											</span>
+										</span>
+									</span>
+								</a>
+							</div>
+							<div id="popup-2" class="popup-box mfp-fade mfp-hide">
+								<div class="content">
+									<div class="image" style="background-image: url(images/yonovo/Yonovo6_page-0022.jpg);"></div>
+									<div class="desc single-post-text">
+										<div class="category">Content</div>
+										<h4>Hand holding pyramid painting</h4>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<ul>
+											<li>Now there is more fashion. There is no so-called trends.</li>
+											<li>Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style.</li>
+											<li>Think about the content that you want to invest in a created object, and only then will form.</li>
+											<li>The thing is your spirit. A spirit unlike forms hard copy.</li>
+										</ul>
+										<p>
+											Now there is more fashion. There is no so-called trends. Now chase after anything not necessary — nor for fashionable color nor the shape, nor for style. Think about the content that you want to invest in a created object, and only then will form. The thing is your spirit. A spirit unlike forms hard copy.
+										</p>
+										<a href="yonovo.html" class="btn hover-animated">
+											<span class="circle"></span>
+											<span class="lnk">View Project</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!-- Section Contacts Info -->
+			<div class="section contacts" id="section-contacts">
+				<div class="content">
+
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Contacts</div>
+					</div>
+
+					<!-- contacts items -->
+					<div class="service-items">
+
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-phone"></span></div>
+								<div class="name">Phone</div>
+								<div class="text">+ (33) 7 81 45 19 66</div>
+							</div>
+						</div>
+						
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-envelope"></span></div>
+								<div class="name">Email</div>
+								<div class="text"><a href="mailto:steve-pearson@gmail.com">adeldjebal@gmail.com</a></div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-map-marker-alt"></span></div>
+								<div class="name">Address</div>
+								<div class="text">Paris La Bastille</div>
+							</div>
+						</div>
+
+						<div class="service-col">
+							<div class="service-item content-box">
+								<div class="icon"><span class="fas fa-user-tie"></span></div>
+								<div class="name">Freelance Available</div>
+								<div class="text">I am available for Freelance hire</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="clear"></div>
+				</div>
+			</div>
+
+			<!-- Section Contacts Form -->
+			<div class="section contacts" id="section-contacts-form">
+				<div class="content">
+
+					<!-- title -->
+					<div class="title">
+						<div class="title_inner">Hire Me</div>
+					</div>
+
+					<!-- form -->
+					<div class="contact_form content-box">
+						<form id="cform" method="post">
+							<div class="group-val">
+   								<input type="text" name="name" placeholder="Name" />
+							</div>
+							<div class="group-val">
+								<input type="email" name="email" placeholder="Email" />
+							</div>
+							<div class="group-val ct-gr">
+								<textarea name="message" placeholder="Message"></textarea>
+							</div>
+							<div class="group-bts">
+								<button type="submit" class="btn hover-animated">
+									<span class="circle"></span>
+									<span class="lnk">Send Message</span>
+								</button>
+							</div>
+						</form>
+						<div class="alert-success">
+							<p>Thanks, your message is sent successfully.</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="clear"></div>
+			</div>
+
+			<!-- Section Started -->
+			<div class="section started section-title" id="section-map">
+
+				<!-- background -->
+				<div class="video-bg">
+					<div class="map" id="map"></div>
+					<div class="video-bg-mask"></div>
+					<div class="video-bg-texture" id="grained_container"></div>
+				</div>
+				<div id="map" style="height: 100px;"></div>
+
+			</div>
+
 		</div>
+
 		
 		<!-- Footer -->
 		<footer class="footer">
 			<div class="copy">
-				<p>E: Adeldjebal@gmail.com</p>
-				<p>T: + 33 7 68 10 24 19</p>
+				<p>E: adeldjebal@gmail.com</p>
+				<p>T: + (33) 7 81 45 19 66</p>
 			</div>
 			<div class="soc-box">
 				<div class="follow-label">Follow Me</div>
 				<div class="soc">
-					<a target="_blank" href="https://www.tiktok.com/@virtuosagency1?lang=fr">
-						<span class="icon fab fa-tiktok"></span>
-					</a>
-					<a target="_blank" href="https://www.behance.net/adeljebali">
-						<span class="icon fab fa-behance"></span>
-					</a>
-					<a target="_blank" href="https://github.com/Adel208">
-						<span class="icon fab fa-github"></span>
+					<a target="_blank" href="https://fr.pinterest.com/adeldjeb208/_profile/">
+						<span class="icon fab fa-pinterest"></span>
 					</a>
 					<a target="_blank" href="https://www.instagram.com/adel.djeb.144/">
 						<span class="icon fab fa-instagram"></span>
 					</a>
+					<a target="_blank" href="https://dribbble.com/AdelDJ">
+						<span class="icon fab fa-dribbble"></span>
+					</a>
+					<a target="_blank" href="https://www.behance.net/adeljebali">
+						<span class="icon fab fa-behance"></span>
+					</a>
+					
+					<a target="_blank" href="https://www.facebook.com/">
+						<span class="icon fab fa-facebook"></span>
+					</a>
 				</div>
 			</div>
 			
+			</div>
 			<div class="clear"></div>
 		</footer>
 
@@ -1056,6 +1622,29 @@
 	<script src="js/swiper.js"></script>
 	<script src="js/grained.js"></script>
 	<script src="js/scripts.js"></script>
+
+	<!-- Google map api -->
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s"></script> -->
+
+	<script src="js/scripts.js"></script>
+	
+		<!-- Ton contenu de page ici -->
+	
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<script>
+			// Créer la carte et centrer sur une latitude et longitude spécifiques
+			var map = L.map('map').setView([48.834663, 2.504317], 13); // Latitude et Longitude (ex: Londres)
+	
+			// Ajouter la couche de tuiles d'OpenStreetMap
+			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+			}).addTo(map);
+	
+			// Ajouter un marqueur sur la carte
+			L.marker([48.834663, 2.504317]).addTo(map)
+				.bindPopup('virtuos agency !')
+				.openPopup();
+		</script>
 
 </body>
 </html>
