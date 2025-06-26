@@ -1,0 +1,14 @@
+// Neutralisation des effets de parallaxe
+[data-jarallax], 
+.jarallax {
+    display: block !important;
+    transform: none !important;
+    height: auto !important;
+}
+
+// Désactivation des conteneurs flex
+.vertical-center, 
+.centrize {
+    display: block !important;
+    height: auto !important;
+}

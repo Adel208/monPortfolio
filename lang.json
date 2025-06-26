@@ -1,0 +1,33 @@
+{
+    "en": {
+      "home": "Home",
+      "resume": "Resume",
+      "works": "Works",
+      "contact": "Contact",
+      "greeting": "Hello, I’m <strong>Adel Djebali</strong>, UX/UI Designer and <br /> Front-end Developer Based in Paris.",
+      "subtitle1": "I craft stunning <strong>websites</strong>",
+      "subtitle2": "I bring brands to life with <strong>design</strong>",
+      "subtitle3": "I elevate experiences with <strong>WordPress</strong>"
+    },
+    "fr": {
+      "home": "Accueil",
+      "resume": "CV",
+      "works": "Travaux",
+      "contact": "Contact",
+      "greeting": "Bonjour, je suis <strong>Adel Djebali</strong>, UX/UI Designer et <br /> Développeur Front-end basé à Paris.",
+      "subtitle1": "Je crée des <strong>sites web époustouflants</strong>",
+      "subtitle2": "Je donne vie aux marques avec du <strong>design</strong>",
+      "subtitle3": "J'améliore les expériences avec <strong>WordPress</strong>"
+    },
+    "ar": {
+      "home": "الرئيسية",
+      "resume": "السيرة الذاتية",
+      "works": "الأعمال",
+      "contact": "اتصل",
+      "greeting": "مرحبًا، أنا <strong>عادل الجبالي</strong>، مصمم UX/UI و <br /> مطور الواجهة الأمامية مقيم في باريس.",
+      "subtitle1": "أصنع <strong>مواقع إلكترونية مذهلة</strong>",
+      "subtitle2": "أجعل العلامات التجارية تنبض بالحياة من خلال <strong>التصميم</strong>",
+      "subtitle3": "أرفع مستوى التجربة من خلال <strong>ووردبريس</strong>"
+    }
+  }
+  
